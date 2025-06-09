@@ -136,3 +136,25 @@
         scale: 1.125;
     }
 }
+
+@keyframes leftEyeDisappear {
+    0% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
