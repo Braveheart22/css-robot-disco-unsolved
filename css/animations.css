@@ -121,7 +121,7 @@
     }
 }
 
-@keyframes bounce {
+@keyframes noseRotate {
   from {
     rotate: 0deg;
   }

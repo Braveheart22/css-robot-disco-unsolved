@@ -99,7 +99,7 @@ body {
 }
 
 .robot-nose:hover {
-    animation: bounce 0.5s ease-in-out infinite;
+    animation: noseRotate 1.5s ease-in-out;
 }
 
 .robot-teeth {
