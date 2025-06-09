@@ -1,0 +1,108 @@
+@keyframes earPulse {
+
+    0%,
+    100% {
+        background: red;
+        box-shadow:
+        0 0 10px red,
+        0 0 20px red,
+        0 0 30px red;
+    }
+
+    50% {
+        background: #ff6b6b;
+        box-shadow: 0 0 20px red;
+    }
+}
+
+@keyframes aroundPosition {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    16% {
+        top: 0;
+        left: 0;
+        scale: .5;
+    }
+
+    32% {
+        top: -50%;
+        left: 50%;
+        scale: .5;
+    }
+
+    48% {
+        top: 50%;
+        left: 50%;
+        scale: .5;
+    }
+
+    64% {
+        top: 50%;
+        left: -50%;
+        scale: .5;
+    }
+
+    80% {
+        top: -50%;
+        left: -50%;
+        scale: .5;
+    }
+
+    90% {
+        top: 0;
+        left: 0;
+        scale: .5;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        scale: 1;
+    }
+}
+
+@keyframes hairOneGrowth {
+    0% {
+        height: 10px;
+    }
+
+    50% {
+        height: 4em;
+    }
+
+    100% {
+        height: 10px;
+    }
+}
+
+@keyframes hairTwoGrowth {
+    0% {
+        height: 30px;
+    }
+
+    50% {
+        height: 3em;
+        border-radius: 12px 12px 0 0;
+    }
+
+    100% {
+        height: 30px;
+    }
+}
+
+@keyframes hairThreeGrowth {
+    0% {
+        width: 1.5625em;
+    }
+
+    50% {
+        width: 6.225em;
+    }
+
+    100% {
+        width: 1.5625em;
+    }
+}

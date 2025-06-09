@@ -45,15 +45,22 @@ body {
     left: 20%;
 }
 
-.robot-eye-right {
+.right-eye-socket {
     position: absolute;
     top: 30%;
+    width: 40px;
+    height: 40px;
+    right: 20%;
+}
+
+.robot-eye-right {
+    position: absolute;
     width: 40px;
     height: 40px;
     background: #ccf9ff;
     border-radius: 50%;
     box-shadow: 0 0 10px aqua;
-    right: 20%;
+    animation: aroundPosition 5s infinite 1s ease-in-out;
 }
 
 .robot-ear-left {
@@ -127,6 +134,7 @@ body {
     height: 15px;
     opacity: 0.5;
     background: orange;
+    animation: hairOneGrowth 1s infinite 0.5s ease-in-out;
 }
 
 .robot-hair-two {
@@ -134,6 +142,7 @@ body {
     height: 30px;
     opacity: 0.75;
     background: plum;
+    animation: hairTwoGrowth 1.75s infinite 1.5s ease-in-out;
 }
 
 .robot-hair-three {
@@ -141,4 +150,5 @@ body {
     height: 3.75em;
     border-radius: 12px 12px 0 0;
     background: magenta;
+    animation: hairThreeGrowth 2.5s infinite 0.5s ease-in-out;
 }
