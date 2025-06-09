@@ -98,6 +98,10 @@ body {
     background: aqua;
 }
 
+.robot-nose:hover {
+    animation: bounce 0.5s ease-in-out infinite;
+}
+
 .robot-teeth {
     position: absolute;
     bottom: 20px;
@@ -134,7 +138,7 @@ body {
     height: 15px;
     opacity: 0.5;
     background: orange;
-    animation: hairOneGrowth 1s infinite 0.5s ease-in-out;
+    animation: hairOneGrowth 1s infinite 0.5s ease-in-out, hairOneColor 2.5s infinite 0.5s ease-in-out;
 }
 
 .robot-hair-two {
