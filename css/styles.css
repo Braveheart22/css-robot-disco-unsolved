@@ -121,6 +121,7 @@ body {
 .robot-tooth {
     background: #ffffff;
     border-radius: 1px;
+    animation: toothChatter 0.1s ease-in-out infinite;
 }
 
 .robot-hair-style {

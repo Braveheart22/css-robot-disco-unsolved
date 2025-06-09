@@ -130,3 +130,9 @@
   }
 
 }
+
+@keyframes toothChatter {
+    50% {
+        scale: 1.125;
+    }
+}
